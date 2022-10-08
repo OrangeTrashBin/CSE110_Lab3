@@ -19,8 +19,106 @@
     </nav>
     <main>
         <h1>Probably I should put something important here</h1>
+        <section>
+          And then here's the text that I prepared for the first section
+          <h2>I probably should put something less important here since it's the subtitle?</h2>
+            <h3>I probably should put something that's more specific because it's a subsubtitle?</h3>
+        </section>
+        <section>
+          Here's another section, but I am going to put something interesting, but not that interesting here since javascript is unabled for this assignemnt.
+          <div>This text is inside of the 'div' tag</div>
+          <span>This text is inside of the 'span' tag</span>
 
-        
+          Let's have some lists:
+          <hr>
+
+          <p>Oh! I forgot, some paragraphs are also the important components in the html files</p>
+
+          <p>Here's the ordered lise:
+            <ol>
+              <li>The first item</li>
+              <li>The second Item</li>
+              <li>The third item</li>
+            </ol>
+          </p>
+
+          <p>And here's the unodered list:
+            <ul>
+              <li>This is one of the item</li>
+              <li>Here's another one</li>
+            </ul>
+          </p>
+        </section>
+        <section>
+          <strong>This</strong> <b>line</b> <a href="http://google.com">of</a> <em>text</em> <i>is</i> some what weird.
+          <br>
+          <strong>This</strong> <b>line</b> <a href="http://google.com">of</a> <em>text</em> <i>is</i> some what weird.
+        </section>
+        <hr>
+
+        <section>And this is the section for medias
+          <ul>
+            <li><img src="1.png" alt="picture"></li>
+            <li>
+              <audio controls>
+                <source src="2.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </li>
+            <li>
+              <video width="320" height="240" controls>
+                <source src="3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          Here's some iteractive components:
+          <details>
+            <summary>This is a summary</summary>
+            <p>But nothing got summarized</p>
+          </details>
+        </section>
+        <hr>
+        <h1>Forms</h1>
+        <form action="idonotknow">
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="name" value="I don't have name"><br>
+          <label for="School">School</label><br>
+          <input type="text" id="school" name="school" value="I got kicked out from the school"><br><br>
+          <input type="submit" value="Submit">
+        <hr>
+        <form action="idonotknow">
+          <fieldset>
+           <legend>Survey, the useless one:</legend>
+           <label for="name">Name</label><br>
+           <input type="text" id="name" name="name" value="I don't have name"><br>
+           <label for="School">School</label><br>
+           <input type="text" id="school" name="school" value="I got kicked out from the school"><br><br>
+           <p><label for="review">Review of your school:</label></p>
+           <textarea id="review" name="review" rows="4" cols="50">I absolutely love UCSD, really</textarea><br>
+           <label for="game">Choose your Game from the list:</label>
+           <input list="games" name="game" id="game">
+           <datalist id="games">
+            <option value="Apex">
+            <option value="LOL">
+            <option value="MC">
+            <option value="No game">
+            <option value="Study">
+            </datalist><br>
+            <label for="color">Choose a color:</label>
+            <select name="colors" id="colors">
+              <option value="blue">blue</option>
+              <option value="red">red</option>
+              <option value="white">white</option>
+              <option value="yellow">yellow</option>
+            </select>
+            <input type="submit" value="Submit">
+            <button type="button">I do not know the use of this button</button>
+          </fieldset>
+         </form>
     </main>
   </body>
 
