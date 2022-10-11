@@ -168,10 +168,55 @@
 
 /* Selectors */
 body {
-    background-color: yellow;
+    background-color: whitesmoke;
   }
   
   h1 {
     color: navy;
     margin-left: 20px;
+  }
+
+  #id_1 {
+    color: skyblue;
+  }
+
+  * {
+    margin: 1em;
+    padding: 1em;
+  }
+
+  a[href*="google"] {
+    background-color: gold;
+  }
+
+  :is(span, div) {
+    border: blue 5px solid;
+  }
+
+  li {
+    list-style-type: disc;
+  }
+  
+  li li {
+    list-style-type: circle;
+  }
+
+  p {
+    background-color: aqua;
+  }
+  
+  section > p {
+    background-color: yellow;
+  }
+
+  hr ~ p {
+    color: red;
+  }
+
+  li:first-of-type + li {
+    color: rgb(136, 0, 255);
+  }
+
+  h3.notes{
+    background-color: rgb(221, 0, 255);
   }
